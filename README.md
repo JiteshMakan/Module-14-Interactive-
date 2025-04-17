@@ -1,5 +1,5 @@
-🚀 Belly Button Biodiversity Dashboard
-1️⃣ Interactive Data Visualizations
+ Belly Button Biodiversity Dashboard
+Interactive Data Visualizations
 Bar Chart
 The bar chart displays the top 10 OTUs (bacterial cultures) for a selected test subject. The length of each bar is determined by the sample_values. The bars are labeled with the corresponding otu_ids, and hovering over a bar provides additional information from the otu_labels.
 
@@ -9,5 +9,5 @@ The bubble chart plots all OTUs for a selected sample, with the otu_ids on the x
 Metadata Panel
 The metadata panel shows demographic information about the selected individual. It dynamically updates to reflect the selected individual whenever the user chooses a new option from the dropdown menu.
 
-2️⃣ Deployment & Submission
+Deployment & Submission
 Once the dashboard is completed, host it using GitHub Pages. Ensure that all the visualizations update dynamically when different individuals are selected. Submit both the GitHub repository link and the live deployed page URL for review.
