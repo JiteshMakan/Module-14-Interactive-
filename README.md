@@ -1,36 +1,13 @@
-Complete the following steps:
+🚀 Belly Button Biodiversity Dashboard
+1️⃣ Interactive Data Visualizations
+Bar Chart
+The bar chart displays the top 10 OTUs (bacterial cultures) for a selected test subject. The length of each bar is determined by the sample_values. The bars are labeled with the corresponding otu_ids, and hovering over a bar provides additional information from the otu_labels.
 
-Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
+Bubble Chart
+The bubble chart plots all OTUs for a selected sample, with the otu_ids on the x-axis and the sample_values on the y-axis. The size of each bubble represents the value of sample_values, while the color of the bubbles is determined by the otu_ids. When you hover over a bubble, you’ll see more information from the otu_labels.
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+Metadata Panel
+The metadata panel shows demographic information about the selected individual. It dynamically updates to reflect the selected individual whenever the user chooses a new option from the dropdown menu.
 
-Use sample_values as the values for the bar chart.
-
-Use otu_ids as the labels for the bar chart.
-
-Use otu_labels as the hovertext for the chart.
-
-bar Chart
-
-Create a bubble chart that displays each sample.
-
-Use otu_ids for the x values.
-
-Use sample_values for the y values.
-
-Use sample_values for the marker size.
-
-Use otu_ids for the marker colors.
-
-Use otu_labels for the text values.
-
-
-Display the sample's metadata, i.e., an individual's demographic information.
-
-Loop through each key-value pair from the metadata JSON object and create a text string.
-
-Append an html tag with that text to the #sample-metadata panel.
-
-
-Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
-
+2️⃣ Deployment & Submission
+Once the dashboard is completed, host it using GitHub Pages. Ensure that all the visualizations update dynamically when different individuals are selected. Submit both the GitHub repository link and the live deployed page URL for review.
